@@ -1,5 +1,6 @@
 import sys
- 
+import os
+
 class NetworkSecurityException(Exception):
     def __init__(self, error_message,error_detail:sys):
         self.error_message = error_message
